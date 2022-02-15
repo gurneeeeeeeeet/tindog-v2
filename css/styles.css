@@ -1,0 +1,200 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+  z-index: -1;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+
+body {
+  font-family: Montserrat;
+}
+/* Navbar */
+.navbar {
+  padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: Montserrat;
+  font-weight: 300;
+}
+
+/* Download Buttons */
+.dnld-btn {
+  margin: 3% 3% 5% 0;
+}
+
+.cstm-div {
+  position: relative;
+}
+
+.title-img {
+  max-width: 55%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+/* Features */
+#features {
+  background-color: white;
+  text-align: center;
+  padding: 7% 15%;
+  position: relative;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+p {
+  color: #8f8f8f;
+  padding: 0 15%;
+}
+
+.ico-img {
+  font-size: 800%;
+  color: #EF8172;
+  margin-bottom: 1.5rem;
+}
+
+.ico-img:hover {
+  color: #FF4D69;
+}
+
+/* testimonial */
+#testimonial {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+h2 {
+  font-family: Montserrat;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.img-dog {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* PRESS */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* PRICING */
+#pricing {
+  padding: 100px;
+}
+
+.pricing {
+  padding: 3% 2%;
+}
+
+.card-header{
+  text-align: center;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.prmium-plan-body {
+  line-height: 0.867;
+}
+
+.prm-plan{
+  background-color: #FF4C68;
+  color: white;
+}
+
+.buyBtn{
+  background-color: #FF4C68;
+}
+
+.hvrBtn:hover {
+  background-color:#FF4C68;
+}
+
+@media (max-width: 1028px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+/* FOOTER */
+
+#footer {
+  text-align: center;
+}
+
+.footer-text {
+  background-color: #FF4C68;
+  padding: 7% 25% 0;
+}
+
+.foot-text {
+  color: white;
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.dnld-btm {
+  margin: 5% 1.5%;
+}
+
+.footer-links {
+  color: white;
+  padding: 80px 0 5px;
+}
+
+.fa-brands {
+  color: white;
+  font-size: 15px;
+  padding: 0 3px 0;
+}
